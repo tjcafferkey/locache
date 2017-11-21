@@ -1,6 +1,6 @@
 {
   "name": "locache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple utility function to get and set data in your localStorage",
   "main": "lib/index.js",
   "scripts": {
