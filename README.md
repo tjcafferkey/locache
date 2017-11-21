@@ -42,3 +42,9 @@ profile will now equal the following
   weight: '74kg'
 }
 ```
+
+### Remove items in localStorage
+
+```javascript
+cache('profile').remove();
+```
