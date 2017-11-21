@@ -6,6 +6,10 @@ export function cache(item) {
 
       set(data) {
           localStorage.setItem(item, JSON.stringify(data));
+      },
+
+      remove() {
+          localStorage.removeItem(item);
       }
   };
 }
