@@ -1,9 +1,8 @@
 "use strict";
-import {sessionCache} from "../src";
+import { sessionCache, cache } from "../src";
 
 const expect = require("chai").expect;
 const assert = require("chai").assert;
-const cache = require("../lib/index").cache;
 const localStorage = require("mock-local-storage");
 
 global.window = {};
