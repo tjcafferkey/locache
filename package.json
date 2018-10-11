@@ -9,6 +9,17 @@
     "test": "mocha --compilers js:babel-register",
     "test:watch": "mocha --compilers js:babel-register --watch"
   },
+  "keywords": [
+    "localstorage",
+    "local-cache",
+    "browser-cache",
+    "localcache",
+    "browsercache",
+    "cache",
+    "client-cache",
+    "clientcache",
+    "js-cache"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tjcafferkey/locache.git"
